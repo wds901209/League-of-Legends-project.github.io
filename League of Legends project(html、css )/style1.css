@@ -1,0 +1,53 @@
+body{
+    background: url(./yone/logo-copy.jpg) no-repeat center center fixed;;
+    margin: 0px;
+    padding: 0;
+    background-size: cover;
+}
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    /* 把home.about前面的"˙"刪除 */
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    /* 把li從上下轉成左右 */
+    float: left;
+}
+.navbar{
+    display: flex;
+}
+h3,h4,p{
+    color: white;
+}
+div p{
+    position: absolute;
+    font-size: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 0;
+}
+footer{   
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
